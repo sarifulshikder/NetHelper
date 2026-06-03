@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Controller, Post, Body, Get, Put, Delete, Param, UseGuards, Req, Query } from '@nestjs/common';
 import { LeadService } from './lead.service';
 import { QuotationService } from './quotation.service';

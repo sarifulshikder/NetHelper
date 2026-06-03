@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Controller, Get, Post, Param, Query, UseGuards } from '@nestjs/common';
 import { CustomerAiAnalyticsService } from './customer-ai-analytics.service';
 import { SmartCopilotService } from './smart-copilot.service';

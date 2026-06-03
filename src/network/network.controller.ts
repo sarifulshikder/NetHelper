@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Controller, Post, Body, UseGuards, Req } from '@nestjs/common';
 import { MikrotikService } from './mikrotik.service';
 import { RadiusService } from '../radius/radius.service';

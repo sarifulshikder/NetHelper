@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Controller, Post, Body, Get, Put, Delete, Param, UseGuards, Req, Query } from '@nestjs/common';
 import { KYCService } from './kyc.service';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';

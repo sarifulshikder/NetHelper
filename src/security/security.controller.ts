@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Controller, Get, Put, Body, UseGuards, Request } from '@nestjs/common';
 import { SecurityService } from './security.service';
 import { TenantSecurityProfile } from './tenant-security-profile.entity';

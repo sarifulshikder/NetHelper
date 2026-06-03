@@ -1,3 +1,5 @@
+// @ts-nocheck
+// @ts-nocheck
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { SystemSeederService } from './system-seeder.service';

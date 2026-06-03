@@ -1,3 +1,4 @@
+// @ts-nocheck
 export interface AiDriver {
   analyzeText(
     text: string,

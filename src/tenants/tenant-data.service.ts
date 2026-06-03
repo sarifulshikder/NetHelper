@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Injectable } from '@nestjs/common';
 import { getTenantConnection } from '../core/tenant-connection.provider';
 

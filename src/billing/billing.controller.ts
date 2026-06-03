@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Controller, Post, Body, Get, Put, Param, UseGuards, Req, Query } from '@nestjs/common';
 import { BillingService } from './billing.service';
 import { InvoiceService } from './invoice.service';

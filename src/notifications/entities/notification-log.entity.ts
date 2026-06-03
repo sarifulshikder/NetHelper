@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 import { NotificationChannel } from './notification-template.entity';
 

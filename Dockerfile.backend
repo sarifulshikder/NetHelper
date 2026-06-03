@@ -12,6 +12,8 @@ RUN npm install
 COPY . .
 
 # Build the application
+RUN chmod +x node_modules/.bin/nest
+RUN rm -rf frontend || true
 RUN npm run build
 
 # Production image
@@ -22,7 +24,6 @@ WORKDIR /usr/src/app
 COPY --from=development /usr/src/app/package*.json ./
 COPY --from=development /usr/src/app/node_modules ./node_modules
 COPY --from=development /usr/src/app/dist ./dist
-COPY --from=development /usr/src/app/.env ./
 
 # Run the application
 CMD ["node", "dist/main"]

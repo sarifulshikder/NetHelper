@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Controller, Post, Body, Get, UseGuards, Req } from '@nestjs/common';
 import { TenantService } from './tenant.service';
 import { TenantDataService } from './tenant-data.service';

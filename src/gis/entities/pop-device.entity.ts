@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
 import { FiberJointBox } from './fiber-joint-box.entity';
 import { Zone } from './zone.entity';

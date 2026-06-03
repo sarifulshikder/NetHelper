@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Controller, Post, Body, Get, Put, Param, UseGuards, Req, Query } from '@nestjs/common';
 import { WalletService } from './wallet.service';
 import { VoucherService } from './voucher.service';

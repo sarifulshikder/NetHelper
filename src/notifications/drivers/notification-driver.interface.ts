@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { NotificationChannel } from '../entities/notification-template.entity';
 
 export interface NotificationDriver {

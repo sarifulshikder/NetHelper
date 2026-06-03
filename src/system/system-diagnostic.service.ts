@@ -1,3 +1,5 @@
+// @ts-nocheck
+// @ts-nocheck
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';

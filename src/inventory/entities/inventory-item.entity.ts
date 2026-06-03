@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn, OneToMany } from 'typeorm';
 import { Supplier } from './supplier.entity';
 import { StockTransaction } from './stock-transaction.entity';

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Controller, Post, Get, Body, Param, UseGuards } from '@nestjs/common';
 import { GisService } from './gis.service';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';

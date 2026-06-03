@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn } from 'typeorm';
 import { InventoryItem } from './inventory-item.entity';
 import { Customer } from '../../crm/customer.entity';

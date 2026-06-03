@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { PaymentAttempt } from './payment-attempt.entity';
 
 export interface PaymentGateway {

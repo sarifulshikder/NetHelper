@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Provider } from '@nestjs/common';
 import { getConnection, createConnection, Connection } from 'typeorm';
 

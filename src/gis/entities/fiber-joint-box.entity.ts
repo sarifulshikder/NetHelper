@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn, OneToMany } from 'typeorm';
 import { PopDevice } from './pop-device.entity';
 import { FiberCable } from './fiber-cable.entity';

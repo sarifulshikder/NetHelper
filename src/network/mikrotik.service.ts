@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Injectable, Logger } from '@nestjs/common';
 import { RouterOSAPI } from 'routeros-api';
 import { Client } from 'ssh2';

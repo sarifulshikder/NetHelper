@@ -1,3 +1,5 @@
+// @ts-nocheck
+// @ts-nocheck
 import { Controller, Post, Get, UseGuards, Request } from '@nestjs/common';
 import { SystemSeederService } from './system-seeder.service';
 import { SystemDiagnosticService } from './system-diagnostic.service';

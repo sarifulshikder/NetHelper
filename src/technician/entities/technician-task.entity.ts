@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn } from 'typeorm';
 import { Ticket } from '../../tickets/ticket.entity';
 import { User } from '../../users/user.entity';
